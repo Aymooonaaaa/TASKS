@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+int func(int x)
+{
+    int userpick;
+    int y;
+    int sub, add ,mult;
+    if (x==1)
+    {
+        printf("go to calculator");
+    }
+    if(x==2)
+    {
+    printf("go to cinema ticket");
+    }
+x=1;
+        printf("sub =%d\n",x-y);
+        printf ("add=%d\n",x+y);
+        printf("mult =%d\n",x*y);
+
+
+       return x;
+}
+int NUM(int x)
+{
+
+int userpick;
+
+x=2;
+printf("normal ticket",userpick=1);
+printf("VIP ticket",userpick=2);
+printf("VIP ticket + pop corn",userpick=3);
+
+}
+int main()
+{
+    int x,y ;
+    int userpick;
+    scanf("%i",&x);
+    scanf("%i",&y);
+
+ printf("%i",x);
+  printf("%i",y);
+
+}
