@@ -1,1 +1,21 @@
 
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int n,a=0,b=1,c;
+
+int i ;
+
+   printf("enter a limit:");
+   scanf("%i",&n);
+
+for(i=1;i<=n;i++)
+{
+    printf("%i \n",a);
+    c=a+b;
+    a=b;
+    b=c;
+}
+}
