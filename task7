@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+void task3()
+{
+    int x,y,z;
+printf("please enter the number \t");
+scanf("%i",&x);
+printf("please enter the power \t");
+scanf("%i",&z);
+y=1;
+for(int i=1;i<=z;i++)
+{
+    y=y*x;
+    printf("\t %i",y);
+}
+}
+int main()
+{
+task3();
+}
+
