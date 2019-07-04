@@ -1,0 +1,22 @@
+#include"headers.h"
+int main()
+{
+    func();
+}
+
+
+void func(void){
+int x,y,*ptrx,ptry;
+ptrx=&x;
+ptry=&y;
+printf("please enter the first number \t ");
+scanf("%i",ptrx);
+printf("\n please enter the second number \t");
+scanf("%i",ptry);
+printf("\n first number is \t %i \n",x);
+printf("second number is \t %i",y);
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+#include"part.h"
