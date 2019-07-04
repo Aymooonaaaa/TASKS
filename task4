@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ int x,i;
+ printf("enter the number \t");
+ scanf("%i",&x);
+ for(int i=1;i<=(x/2);i++)
+
+ {
+
+  printf("%i \t",i);
+
+ }
+ printf("%i \t",x);
+for(int i=((x/2)+1);i<x;i++)
+{
+
+    printf("%i \t",i);
+}
+printf("%i \t \a",(x*2));
+
+}
