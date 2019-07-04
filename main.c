@@ -3,18 +3,64 @@
 
 int main()
 {
-   int x,y;
-   printf("please enter first number \t");
+
+   int x;
+   printf("please enter a number from 1 to 10");
+   printf("\t");
    scanf("%i",&x);
-   printf("please enter second number \t");
-   scanf("%i",&y);
-   for(  int  i=1 ; i<=x ;i++)
+   printf("\n");
+   if(x==1)
    {
-       if(i%y==0)
-       {
-           i=i+1;
-       }
-       printf("%i \t \a",i);
+       printf("Machine is ON ");
+
    }
-   return 0;
+  else if (x==2)
+   {
+       printf("Machine is OFF");
+
+   }
+ else  if(x==3)
+   {
+       printf("Machine is Working");
+
+   }
+   else if(x==4)
+   {
+       printf("Robot Is Moving");
+
+   }
+   else if(x==5)
+   {
+       printf("Robot stopped");
+
+   }
+   else if(x==6)
+   {
+       printf("Connection Error");
+
+   }
+   else if(x==8)
+   {
+       printf("Connection Returned");
+
+   }
+   else if(x==9)
+   {
+       printf("Power Low");
+
+   }
+   else if(x==10)
+   {
+       printf("Power Charging");
+
+   }
+    else
+   {
+       printf("\a Error");
+
+   }
+       printf("\n");
+       scanf("%i",&x);
+
 }
+
