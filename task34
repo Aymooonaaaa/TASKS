@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+    int Battery_Low(int x){
+    if(x==10)
+    {
+        printf("Battery Full");
+    }
+    else if(x>10)
+        {
+        printf("Battery Motafegera Hazeeena");
+    }
+    else if(10>x>5)
+    {
+        printf("Battery is Normal");
+    }
+    else if(0<x<5)
+    {
+    printf("Battery Low");
+    return x;
+    }
+
+    int main()
+{
+int x ;
+    printf(Batery_Low(x));
+    scanf("%i",&x);
+}
