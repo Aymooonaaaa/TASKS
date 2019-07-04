@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  int i,rows;
+  printf("please enter the number of rows\t");
+  scanf("%i",&rows);
+  printf("\n");
+  for(i=1;i<=rows;i++){
+    for(int x=0;x<(rows-i);x++){
+        printf(" ");
+    }
+    for(int x=0;x<(i*2-1);x++){
+        printf("*");
+    }
+    printf("\n");
+
+  }
+}
